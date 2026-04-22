@@ -6,13 +6,15 @@
   "scripts": {
     "dev": "vp dev",
     "build": "vue-tsc --build && vp build",
-    "preview": "vp preview"
+    "preview": "vp preview",
+    "deploy": "noeldemartin-deploy-app"
   },
   "dependencies": {
     "tailwindcss": "^4.2.4",
     "vue": "^3.5.33"
   },
   "devDependencies": {
+    "@noeldemartin/scripts": "next",
     "@tailwindcss/vite": "^4.2.4",
     "@tsconfig/node24": "^24.0.4",
     "@types/node": "^25.6.0",
